@@ -1,0 +1,174 @@
+<<<<<<< HEAD
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'Arial', sans-serif;  
+}
+
+.row{
+  width: 100%;
+}
+
+.menu-title{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.main-container{
+ position: relative;
+ top:60px;
+ margin: 15px; 
+}
+
+.item{
+  position: relative;
+  top: 0;
+  background-color:#999999;
+  margin: 15px;
+  padding: 25px;
+  border: 3px solid #000;
+}
+
+.item p{
+  margin-top: 18px;
+  text-align: justify;
+  font-size:100%;
+}
+
+.item-title{
+  position: absolute;
+  top:0;
+  right: 0px; 
+  padding: 6px 90px;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+#title1 {
+  background-color: #D59898;
+} 
+
+#title2{
+  background-color: #C14543;
+}
+
+#title3{
+  background-color: #E5D198;
+}
+
+@media (min-width: 992px){
+  .columns{
+    float: left;
+    width: 33.33%;  
+  }
+  
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .columns {
+    width: 50%;
+    float: left;
+  }
+  .columnstablet{
+   width: 100%;
+   float: left;
+ }
+}
+
+@media (max-width: 767px){
+  .columns{
+    width: 100%;
+    float: left;
+  }
+=======
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'Arial', sans-serif;  
+}
+
+.row{
+  width: 100%;
+}
+
+.menu-title{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.main-container{
+ position: relative;
+ top:60px;
+ margin: 15px; 
+}
+
+.item{
+  position: relative;
+  top: 0;
+  background-color:#999999;
+  margin: 15px;
+  padding: 25px;
+  border: 3px solid #000;
+}
+
+.item p{
+  margin-top: 18px;
+  text-align: justify;
+  font-size:100%;
+}
+
+.item-title{
+  position: absolute;
+  top:0;
+  right: 0px; 
+  padding: 6px 90px;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+#title1 {
+  background-color: #D59898;
+} 
+
+#title2{
+  background-color: #C14543;
+}
+
+#title3{
+  background-color: #E5D198;
+}
+
+@media (min-width: 992px){
+  .columns{
+    float: left;
+    width: 33.33%;  
+  }
+  
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+  .columns {
+    width: 50%;
+    float: left;
+  }
+  .columnstablet{
+   width: 100%;
+   float: left;
+ }
+}
+
+@media (max-width: 767px){
+  .columns{
+    width: 100%;
+    float: left;
+  }
+>>>>>>> 5f7ee7e9f249a5cbf414feb76ab0ce2581237fe4
+}
